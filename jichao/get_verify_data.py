@@ -163,6 +163,18 @@ sheet = pd.read_excel(io=data_path,
 print("After Reading the data")
 #
 
+sheet = sheet.loc[
+    (sheet["eventid"] == 201701090031) |
+    (sheet["eventid"] == 201702210037) |
+    (sheet["eventid"] == 201703120023) |
+    (sheet["eventid"] == 201705050009) |
+    (sheet["eventid"] == 201705050010) |
+    (sheet["eventid"] == 201707010028) |
+    (sheet["eventid"] == 201707020006) |
+    (sheet["eventid"] == 201708110018) |
+    (sheet["eventid"] == 201711010006) |
+    (sheet["eventid"] == 201712010003)]
+
 
 sheet.pop("approxdate")
 sheet.pop("country_txt")
@@ -281,12 +293,12 @@ sheet.pop("gname2")
 sheet.pop("nwoundus")
 
 
-sheet = sheet.loc[(sheet["iyear"] >= 2015) & (sheet["iyear"] <= 2016)]
+
 
 # 接下来一行一行的读取数据
 
 print(sheet.head())
 print(sheet.keys())
 
-sheet.to_csv("zhangliting.csv")
+sheet.to_csv("to_veirify_no_mapping.csv")
 

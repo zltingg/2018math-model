@@ -12,7 +12,7 @@ def convertStrToNumber(name, data):
     return data[name].map(mapping), mapping
 
 
-train_path = "zhangliting.csv"
+train_path = "to_veirify_no_mapping.csv"
 train = pd.read_csv(train_path,
                     header=0)
 
@@ -39,4 +39,4 @@ print(corp1_mapping)
 
 
 
-train.to_csv("after_mapping.csv")
+train.to_csv("to_verify.csv")

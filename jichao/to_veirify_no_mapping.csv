@@ -1,0 +1,11 @@
+,eventid,iyear,country,region,provstate,doubtterr,alternative,success,suicide,attacktype1,targtype1,corp1,natlty1,targtype2,gname,nperps,nperpcap,claimed,claimmode,weaptype1,nkillus,nkillter,nwound,nwoundte,property,propextent,ishostkid,nhostkid,ransom,ransomamt,ransompaid,hostkidoutcome,nreleased
+103533,201701090031,2017,95,10,Saladin,0.0,,1,0,3,14,Not Applicable,95.0,,Unknown,-99.0,0.0,0,,6,0.0,0.0,0.0,0.0,0,,0.0,,,,,,
+104775,201702210037,2017,4,6,Uruzgan,0.0,,1,0,9,3,Afghan Police,4.0,,Unknown,-99.0,0.0,0,,13,0.0,10.0,15.0,10.0,-9,,0.0,,,,,,
+105390,201703120023,2017,1004,11,Western Bieh,0.0,,1,0,7,4,Sudan People's Liberation Army (SPLA),1004.0,14.0,Unknown,-99.0,0.0,0,,8,0.0,0.0,56.0,0.0,1,3.0,0.0,,,,,,
+106967,201705050009,2017,1004,11,Terekeka,0.0,,1,0,2,19,Unknown,1004.0,,Unknown,-99.0,0.0,0,,5,0.0,0.0,8.0,0.0,1,3.0,0.0,,,,,,
+106968,201705050010,2017,1004,11,Terekeka,0.0,,1,0,2,19,Unknown,1004.0,,Unknown,-99.0,0.0,0,,5,0.0,0.0,7.0,0.0,1,3.0,0.0,,,,,,
+109039,201707010028,2017,41,11,Nana-Grebizi,0.0,,1,0,9,14,Kaga-Bandoro Town,41.0,,Unknown,-99.0,0.0,0,,13,0.0,,0.0,0.0,0,,0.0,,,,,,
+109049,201707020006,2017,200,10,Damascus,0.0,,1,1,3,4,Syrian Armed Forces (SAF),200.0,14.0,Unknown,1.0,0.0,0,,6,0.0,1.0,12.0,0.0,1,3.0,0.0,,,,,,
+110333,201708110018,2017,4,6,Faryab,0.0,,1,0,3,14,Not Applicable,4.0,,Unknown,-99.0,0.0,0,,6,0.0,0.0,3.0,0.0,1,3.0,0.0,,,,,,
+112632,201711010006,2017,4,6,Parwan,0.0,,1,0,3,19,Unknown,4.0,14.0,Unknown,-99.0,0.0,0,,6,0.0,0.0,27.0,0.0,1,4.0,0.0,,,,,,
+113434,201712010003,2017,95,10,Al Anbar,0.0,,1,0,3,14,Not Applicable,95.0,,Unknown,-99.0,0.0,0,,6,0.0,0.0,0.0,0.0,1,3.0,0.0,,,,,,

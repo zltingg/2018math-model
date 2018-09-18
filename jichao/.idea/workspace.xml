@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ready_to_train.py" description="print(af.cluster_centers_indices_)" line="123" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="78cecd82-49a2-4f38-9034-65d396af97ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapping_detail" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Corp Mapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Province Mapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_verify_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ready_to_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to_verify_analyze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/after_mapping.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analyze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/Attacker Mapping" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapping_detail" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zhangliting.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,41 +58,48 @@
     <session id="-1179231685">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="mapping_detail" value="9" />
-          <entry key="py" value="1498" />
+          <entry key="mapping_detail" value="36" />
+          <entry key="py" value="2791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="1498" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Python" value="2791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="9" />
-          <entry key="mapping_detail" value="2" />
-          <entry key="py" value="15" />
+          <entry key="Attacker Mapping" value="4" />
+          <entry key="Corp Mapping" value="4" />
+          <entry key="Province Mapping" value="2" />
+          <entry key="csv" value="32" />
+          <entry key="get_verify_data" value="1" />
+          <entry key="mapping_detail" value="6" />
+          <entry key="py" value="47" />
+          <entry key="verify index" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="9" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="15" />
+          <entry key="CSV" value="32" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
     </session>
@@ -90,23 +107,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapping_detail">
+        <entry file="file://$PROJECT_DIR$/ready_to_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="62">
+              <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+              <folding>
+                <element signature="e#9#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_analyze.py">
+        <entry file="file://$PROJECT_DIR$/to_verify.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="14" />
-              <folding>
-                <element signature="e#9#27#0" expanded="true" />
-                <marker date="1537259215374" expanded="true" signature="94:289" ph="..." />
-              </folding>
+            <state>
+              <caret column="8" selection-start-column="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -117,6 +133,11 @@
     <findStrings>
       <find>ransomnote</find>
       <find>weapsubtype4</find>
+      <find>gname</find>
+      <find>unknown</find>
+      <find>iyear</find>
+      <find>preference</find>
+      <find>pairwise_distances_argmin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,14 +147,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data_load.py" />
-        <option value="$PROJECT_DIR$/data_analyze.py" />
         <option value="$PROJECT_DIR$/mapping_detail" />
+        <option value="$PROJECT_DIR$/Attacker Mapping" />
+        <option value="$PROJECT_DIR$/Corp Mapping" />
+        <option value="$PROJECT_DIR$/get_verify_data" />
+        <option value="$PROJECT_DIR$/get_verify_data.py" />
+        <option value="$PROJECT_DIR$/data_analyze.py" />
+        <option value="$PROJECT_DIR$/to_verify_analyze.py" />
+        <option value="$PROJECT_DIR$/ready_to_train.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-68" />
-    <option name="y" value="295" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="59" />
+    <option name="y" value="2" />
     <option name="width" value="1312" />
     <option name="height" value="773" />
   </component>
@@ -143,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_analyze">
+  <component name="RunManager" selected="Python.ready_to_train">
     <configuration name="data_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jichao" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,12 +247,81 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_verify_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jichao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_verify_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ready_to_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jichao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ready_to_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="to_verify_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jichao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to_verify_analyze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.data_load" />
       <item itemvalue="Python.data_analyze" />
+      <item itemvalue="Python.ready_to_train" />
+      <item itemvalue="Python.get_verify_data" />
+      <item itemvalue="Python.to_verify_analyze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ready_to_train" />
+        <item itemvalue="Python.to_verify_analyze" />
+        <item itemvalue="Python.get_verify_data" />
         <item itemvalue="Python.data_analyze" />
         <item itemvalue="Python.data_load" />
       </list>
@@ -245,15 +341,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-8" width="1315" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="58" y="-8" width="1316" height="784" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.187251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19984077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.49922958" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30970725" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.82588595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,6 +375,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_convert.py" />
+    <entry file="file://$PROJECT_DIR$/Province Mapping">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15703" selection-start-line="1" selection-start-column="15703" selection-end-line="1" selection-end-column="15703" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zhangliting.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -287,37 +390,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/after_mapping.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Attacker Mapping">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_convert.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Corp Mapping">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="288" column="31" lean-forward="true" selection-start-line="288" selection-start-column="31" selection-end-line="288" selection-end-column="31" />
-          <folding>
-            <element signature="e#9#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="210" column="26" selection-end-line="292" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/to_veirify_no_mapping.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_analyze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="463">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#9#27#0" expanded="true" />
-            <marker date="1537259215374" expanded="true" signature="94:289" ph="..." />
+            <marker date="1537275340739" expanded="true" signature="94:289" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapping_detail">
+    <entry file="file://$PROJECT_DIR$/after_mapping.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="-1836">
+          <caret line="216" column="29" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1921860477/numpy/core/umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4555" column="4" selection-start-line="4555" selection-start-column="4" selection-end-line="4555" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_verify_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="280" column="25" lean-forward="true" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/chaoj/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/metrics/pairwise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="369" column="27" selection-start-line="369" selection-start-column="20" selection-end-line="369" selection-end-column="27" />
+          <folding>
+            <element signature="e#394#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify index">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/to_verify.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/to_verify_analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#9#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/chaoj/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/cluster/affinity_propagation_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="332" column="34" lean-forward="true" selection-start-line="332" selection-start-column="34" selection-end-line="332" selection-end-column="34" />
+          <folding>
+            <element signature="e#187#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/chaoj/AppData/Local/Programs/Python/Python36/Lib/site-packages/sklearn/preprocessing/imputation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="124" column="8" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ready_to_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding>
+            <element signature="e#9#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
